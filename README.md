@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/CountryPhoneNumberValidator.svg?style=flat)](http://cocoapods.org/pods/CountryPhoneNumberValidator)
 
 ## Screenshot
-https://user-images.githubusercontent.com/4386218/33623765-5e8e72d6-d9f2-11e7-851b-f0275fd1d4e1.gif
+![Alt text](https://user-images.githubusercontent.com/4386218/33623765-5e8e72d6-d9f2-11e7-851b-f0275fd1d4e1.gif "Main Screen")
 
 ## Usage
 ```
@@ -45,6 +45,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'CountryPhoneNumberValidator'
 ```
+
+## Todo
+1. Refactor PhoneNumberView for customization.
+2. Improve phone number validation.
 
 ## Author
 
