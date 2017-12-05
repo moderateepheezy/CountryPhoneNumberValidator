@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/moderateepheezy/CountryPhoneNumberValidator'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://github.com/moderateepheezy/CountryPhoneNumberValidator/Screenshots/screen.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'moderateepheezy' => 'moderateepheezy@gmail.com' }
   s.source           = { :git => 'https://github.com/moderateepheezy/CountryPhoneNumberValidator.git', :tag => s.version.to_s }
