@@ -33,9 +33,10 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'CountryPhoneNumberValidator/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'CountryPhoneNumberValidator' => ['CountryPhoneNumberValidator/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'CountryPhoneNumberValidator' => ['CountryPhoneNumberValidator/Images.xcassets']
+  }
+  
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
