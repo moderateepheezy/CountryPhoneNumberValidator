@@ -43,7 +43,7 @@ CountryPhoneNumberValidator is available through [CocoaPods](http://cocoapods.or
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'CountryPhoneNumberValidator'
+pod 'CountryPhoneNumberValidator', :git => 'https://github.com/moderateepheezy/CountryPhoneNumberValidator', :branch => 'master'
 ```
 
 ## Todo
