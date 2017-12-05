@@ -1,5 +1,5 @@
 PODS:
-  - CountryPhoneNumberValidator (0.1.3):
+  - CountryPhoneNumberValidator (0.1.4):
     - libPhoneNumber-iOS (~> 0.8)
     - PhoneNumberKit (~> 2.0)
   - IQKeyboardManagerSwift (5.0.0)
@@ -22,7 +22,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CountryPhoneNumberValidator: 45b76c74cb06d7208f591b92b6554cab10e1c775
+  CountryPhoneNumberValidator: fa3d99e180305da0783adf0be4c00b04d7012e01
   IQKeyboardManagerSwift: 3f340202ebe1a7076279b9b9b3c817243ddb3aab
   libPhoneNumber-iOS: b8a1038a101c78616c4df87815ac1556349faf98
   PhoneNumberKit: 62003f40ff75315fd3738286558bc365365ac222
