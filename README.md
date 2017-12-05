@@ -46,6 +46,10 @@ it, simply add the following line to your Podfile:
 pod 'CountryPhoneNumberValidator'
 ```
 
+## Todo
+1. Refactor PhoneNumberView for customization.
+2. Improve phone number validation.
+
 ## Author
 
 moderateepheezy, moderateepheezy@gmail.com
