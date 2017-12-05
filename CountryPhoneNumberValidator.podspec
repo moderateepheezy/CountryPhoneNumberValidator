@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CountryPhoneNumberValidator'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A phone number validator based on Country dial code'
 
 # This description is used to generate tags and improve search results.
