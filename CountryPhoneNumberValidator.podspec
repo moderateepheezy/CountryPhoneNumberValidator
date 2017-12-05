@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CountryPhoneNumberValidator'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CountryPhoneNumberValidator.'
+  s.summary          = 'A phone number validator based on Country dial code'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,6 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
+  The library provides a view for inputing phone number with dial code, returns a country flag and
+   validate if the dial code is valid for bthe phone number inputed 
 TODO: Add long description of the pod here.
                        DESC
 
