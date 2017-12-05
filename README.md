@@ -10,6 +10,8 @@ https://user-images.githubusercontent.com/4386218/33623765-5e8e72d6-d9f2-11e7-85
 
 ## Usage
 ```
+import CountryPhoneNumberValidator
+
 var phoneView: PhoneNumberView!
 
 phoneView = PhoneNumberView(vc: self, button: verifyButton)
