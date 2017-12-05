@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CountryPhoneNumberValidator'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A phone number validator based on Country dial code'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/moderateepheezy/CountryPhoneNumberValidator'
-  s.screenshots     = 'https://user-images.githubusercontent.com/4386218/33623765-5e8e72d6-d9f2-11e7-851b-f0275fd1d4e1.gif'
+  s.screenshots     = 'https://github.com/moderateepheezy/CountryPhoneNumberValidator/master/Screenshots/screen.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'moderateepheezy' => 'moderateepheezy@gmail.com' }
   s.source           = { :git => 'https://github.com/moderateepheezy/CountryPhoneNumberValidator.git', :tag => s.version.to_s }
