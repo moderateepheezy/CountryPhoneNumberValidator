@@ -1,0 +1,6 @@
+framework module CountryPhoneNumberValidator {
+  umbrella header "CountryPhoneNumberValidator-umbrella.h"
+
+  export *
+  module * { export * }
+}

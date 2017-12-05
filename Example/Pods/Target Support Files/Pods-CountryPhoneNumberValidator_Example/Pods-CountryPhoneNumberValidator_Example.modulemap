@@ -1,0 +1,6 @@
+framework module Pods_CountryPhoneNumberValidator_Example {
+  umbrella header "Pods-CountryPhoneNumberValidator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

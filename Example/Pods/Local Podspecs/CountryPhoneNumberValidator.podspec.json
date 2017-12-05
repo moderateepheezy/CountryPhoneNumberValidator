@@ -1,0 +1,31 @@
+{
+  "name": "CountryPhoneNumberValidator",
+  "version": "0.1.0",
+  "summary": "A short description of CountryPhoneNumberValidator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/moderateepheezy/CountryPhoneNumberValidator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "moderateepheezy": "moderateepheezy@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/moderateepheezy/CountryPhoneNumberValidator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.1"
+  },
+  "source_files": "CountryPhoneNumberValidator/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "PhoneNumberKit": [
+      "~> 2.0"
+    ],
+    "libPhoneNumber-iOS": [
+      "~> 0.8"
+    ]
+  }
+}

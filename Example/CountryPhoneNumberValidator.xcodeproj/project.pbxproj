@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -42,9 +42,9 @@
 		607FACE51AFB9204008FA782 /* CountryPhoneNumberValidator_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountryPhoneNumberValidator_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7CC7BCBE96D985C2C4E8ADE3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		87A71D87C336021F791EE69B /* CountryPhoneNumberValidator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CountryPhoneNumberValidator.podspec; path = ../CountryPhoneNumberValidator.podspec; sourceTree = "<group>"; };
-		AFA116D42BA3594148034C2C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7CC7BCBE96D985C2C4E8ADE3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		87A71D87C336021F791EE69B /* CountryPhoneNumberValidator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CountryPhoneNumberValidator.podspec; path = ../CountryPhoneNumberValidator.podspec; sourceTree = "<group>"; };
+		AFA116D42BA3594148034C2C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BEC686C836C62C09B8EF0369 /* Pods_CountryPhoneNumberValidator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CountryPhoneNumberValidator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D7C6F7A05ACB02DBB53679 /* Pods-CountryPhoneNumberValidator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountryPhoneNumberValidator_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CountryPhoneNumberValidator_Example/Pods-CountryPhoneNumberValidator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -225,7 +225,7 @@
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "CountryPhoneNumberValidator" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -338,10 +338,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CountryPhoneNumberValidator_Example/Pods-CountryPhoneNumberValidator_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CountryPhoneNumberValidator/CountryPhoneNumberValidator.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/PhoneNumberKit/PhoneNumberKit.framework",
+				"${BUILT_PRODUCTS_DIR}/libPhoneNumber-iOS/libPhoneNumber_iOS.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CountryPhoneNumberValidator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhoneNumberKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libPhoneNumber_iOS.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -458,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -504,7 +510,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -517,7 +523,9 @@
 			baseConfigurationReference = F2D7C6F7A05ACB02DBB53679 /* Pods-CountryPhoneNumberValidator_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GDMX8HJT5A;
 				INFOPLIST_FILE = CountryPhoneNumberValidator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -532,7 +540,9 @@
 			baseConfigurationReference = 1D9B4A73A90B3B23B2D0AA59 /* Pods-CountryPhoneNumberValidator_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GDMX8HJT5A;
 				INFOPLIST_FILE = CountryPhoneNumberValidator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -546,6 +556,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2DC200ECE5ECBF6A5CFEC38C /* Pods-CountryPhoneNumberValidator_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = GDMX8HJT5A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -567,6 +578,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 45841A4E50F0F321877ED64E /* Pods-CountryPhoneNumberValidator_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = GDMX8HJT5A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

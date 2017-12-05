@@ -1,8 +1,14 @@
+platform :ios, '11.1'
+source 'https://github.com/CocoaPods/Specs.git'
+
 use_frameworks!
 
 target 'CountryPhoneNumberValidator_Example' do
   pod 'CountryPhoneNumberValidator', :path => '../'
-
+  pod 'PhoneNumberKit', '~> 2.0'
+  pod 'libPhoneNumber-iOS', '~> 0.8'
+  pod 'IQKeyboardManagerSwift', '5.0.0'
+  
   target 'CountryPhoneNumberValidator_Tests' do
     inherit! :search_paths
 
