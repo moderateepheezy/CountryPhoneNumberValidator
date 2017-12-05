@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CountryPhoneNumberValidator_Example' do
+  pod 'CountryPhoneNumberValidator', :path => '../'
+
+  target 'CountryPhoneNumberValidator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
