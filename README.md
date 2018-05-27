@@ -39,16 +39,12 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-CountryPhoneNumberValidator is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'CountryPhoneNumberValidator', :git => 'https://github.com/moderateepheezy/CountryPhoneNumberValidator', :branch => 'master'
-```
+Copy *CountryPhoneNumberValidator* to your project folder
 
 ## Todo
 1. Refactor PhoneNumberView for customization.
 2. Improve phone number validation.
+3. Make installing from cocoapod.
 
 ## Author
 
